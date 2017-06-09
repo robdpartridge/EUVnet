@@ -4,28 +4,28 @@
     "parameters": {
         "vnetName": {
             "type": "string",
-            "defaultValue": "EUVNet2",
+            "defaultValue": "EUVNet3",
             "metadata": {
                 "description": "VNet name"
             }
         },
         "vnetAddressPrefix": {
             "type": "string",
-            "defaultValue": "192.168.11.0/24",
+            "defaultValue": "1.3.1.0/24",
             "metadata": {
                 "description": "Address prefix"
             }
         },
         "subnet1Prefix": {
             "type": "string",
-            "defaultValue": "192.168.11.0/25",
+            "defaultValue": "1.3.1.0/25",
             "metadata": {
                 "description": "Subnet 1 Prefix"
             }
         },
         "subnet1Name": {
             "type": "string",
-            "defaultValue": "Production2",
+            "defaultValue": "Production3",
             "metadata": {
                 "description": "Subnet 1 Name"
             }
